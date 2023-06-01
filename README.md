@@ -1,6 +1,6 @@
 # @builderhub/localtunnel
 
-[![Publish Package to npmjs](https://github.com/builderhub-platform/localtunnel/actions/workflows/publish.yml/badge.svg)](https://github.com/builderhub-platform/localtunnel/actions/workflows/publish.yml)
+[![Publish Package to npmjs](https://github.com/builderhub-platform/localtunnel/actions/workflows/publish.yml/badge.svg)](https://github.com/builderhub-platform/localtunnel/actions/workflows/publish.yml) ![npm](https://img.shields.io/npm/dw/@builderhub%2Flocaltunnel) ![npm](https://img.shields.io/npm/v/@builderhub/localtunnel?color=%2357C754&label=npm%20version) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 localtunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes.
 
