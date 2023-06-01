@@ -131,7 +131,7 @@ export class TunnelCluster extends EventEmitter {
 
         remote.removeListener("close", remoteClose);
 
-        if (err.code !== "ECONNREFUSED" && err.code !== "ECONNRESET") {
+        if (err.name !== "ECONNREFUSED" && err.name !== "ECONNRESET") {
           return remote.end();
         }
 

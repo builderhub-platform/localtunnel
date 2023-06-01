@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import openurl from "openurl";
 import yargs from "yargs";
 import { localtunnel } from "./localtunnel";
