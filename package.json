@@ -1,6 +1,6 @@
 {
   "name": "@builderhub/localtunnel",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Expose localhost to the world for BuilderHub Platform Dev",
   "main": "dist/localtunnel.js",
   "files": [
