@@ -1,0 +1,28 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "timezone": "Asia/Seoul",
+  "schedule": ["every weekend"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": "after 10pm on saturday"
+  },
+  "rebaseWhen": "conflicted",
+  "packageRules": [
+    {
+      "groupName": "devDependencies (non-major)",
+      "automerge": "true",
+      "depTypeList": ["devDependencies"],
+      "updateTypes": ["patch", "minor"],
+      "excludePackageNames": [],
+      "schedule": ["before 8am on Wednesday"]
+    },
+    {
+      "groupName": "definitelyTyped",
+      "automerge": "true",
+      "packagePatterns": ["^@types/"],
+      "updateTypes": ["patch", "minor"],
+      "schedule": ["before 8am on Wednesday"]
+    }
+  ]
+}
