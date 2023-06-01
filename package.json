@@ -1,6 +1,6 @@
 {
   "name": "@builderhub/localtunnel",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Expose localhost to the world for BuilderHub Platform Dev",
   "main": "dist/localtunnel.js",
   "files": [
@@ -15,7 +15,8 @@
     "build": "tsc && tsc-alias",
     "test": "jest",
     "typecheck": "tsc --noEmit",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "Builderhub Platform Dev",
@@ -41,6 +42,7 @@
     "lint-staged": "13.2.2",
     "mocha": "^10.2.0",
     "pretty-quick": "3.1.3",
+    "standard-version": "^9.5.0",
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
