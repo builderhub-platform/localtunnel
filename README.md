@@ -108,6 +108,14 @@ import { localtunnel } from "@builderhub/localtunnel";
 | ------ | ---- | ---------------- |
 | close  |      | close the tunnel |
 
+## Slack integration
+
+하위 도메인을 여러 개발자가 함께 사용할 경우 충돌이 발생하여 나중에 터널을 요청하게 되면 랜덤한 하위 도메인을 제공합니다.
+
+빌더허브 플랫폼 개발팀은 예약된 7개의 하위 도메인을 모니터링 합니다. 개발자는 Slack의 Tunnel Status 앱으로 확인한 후 터널 환경에서의 앱 테스트가 가능합니다.
+
+![slack](docs/slack.png)
+
 ## License
 
 MIT
