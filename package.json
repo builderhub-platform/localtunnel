@@ -27,8 +27,8 @@
     ]
   },
   "devDependencies": {
-    "@builderhub/eslint-config": "^0.0.6",
-    "@builderhub/prettier-config": "^0.0.10",
+    "@builderhub/eslint-config": "^0.0.9",
+    "@builderhub/prettier-config": "^0.0.13",
     "@types/debug": "^4.1.8",
     "@types/jest": "^29.5.2",
     "@types/module-alias": "^2.0.1",
