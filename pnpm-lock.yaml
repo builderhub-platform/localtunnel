@@ -27,7 +27,7 @@ devDependencies:
     version: 0.0.9(typescript@5.0.4)
   '@builderhub/prettier-config':
     specifier: ^0.0.13
-    version: 0.0.13(prettier@2.8.8)
+    version: 0.0.13(prettier@3.1.0)
   '@types/debug':
     specifier: ^4.1.8
     version: 4.1.8
@@ -66,7 +66,7 @@ devDependencies:
     version: 10.2.0
   pretty-quick:
     specifier: 3.1.3
-    version: 3.1.3(prettier@2.8.8)
+    version: 3.1.3(prettier@3.1.0)
   standard-version:
     specifier: ^9.5.0
     version: 9.5.0
@@ -453,13 +453,13 @@ packages:
       - typescript
     dev: true
 
-  /@builderhub/prettier-config@0.0.13(prettier@2.8.8):
+  /@builderhub/prettier-config@0.0.13(prettier@3.1.0):
     resolution: {integrity: sha512-Bq9mXEU+bHtNGku+FmZFP0kOXXB8lX/ncCyS9XJlmeNQW8Y7B8J/unFMQnWOKjitFa4q2OXIAeMiIwV0BbW1KQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       prettier: ^2.8.2 || ^3.0.0
     dependencies:
-      prettier: 2.8.8
+      prettier: 3.1.0
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -1289,7 +1289,7 @@ packages:
   /axios@1.4.0(debug@4.3.4):
     resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
     dependencies:
-      follow-redirects: 1.15.2(debug@4.3.4)
+      follow-redirects: 1.15.4(debug@4.3.4)
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -2362,8 +2362,8 @@ packages:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
-  /follow-redirects@1.15.2(debug@4.3.4):
-    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
+  /follow-redirects@1.15.4(debug@4.3.4):
+    resolution: {integrity: sha512-Cr4D/5wlrb0z9dgERpUL3LrmPKVDsETIJhaCMeDfuFYcqa5bldGV6wBsAN6X/vxlXQtFBMrXdXxdL8CbDTGniw==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -3926,12 +3926,6 @@ packages:
       fast-diff: 1.3.0
     dev: true
 
-  /prettier@2.8.8:
-    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-    dev: true
-
   /prettier@3.1.0:
     resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
     engines: {node: '>=14'}
@@ -3947,7 +3941,7 @@ packages:
       react-is: 18.2.0
     dev: true
 
-  /pretty-quick@3.1.3(prettier@2.8.8):
+  /pretty-quick@3.1.3(prettier@3.1.0):
     resolution: {integrity: sha512-kOCi2FJabvuh1as9enxYmrnBC6tVMoVOenMaBqRfsvBHB0cbpYHjdQEpSglpASDFEXVwplpcGR4CLEaisYAFcA==}
     engines: {node: '>=10.13'}
     hasBin: true
@@ -3960,7 +3954,7 @@ packages:
       ignore: 5.2.4
       mri: 1.2.0
       multimatch: 4.0.0
-      prettier: 2.8.8
+      prettier: 3.1.0
     dev: true
 
   /process-nextick-args@2.0.1:
